@@ -1,0 +1,130 @@
+{
+  "errors": [],
+  "warnings": [],
+  "version": "4.46.0",
+  "hash": "da56bdf175e1911ef6ab",
+  "publicPath": "/static/",
+  "outputPath": "D:\\Chamber_Of_Commerce_Frontify\\Chamber-of-Commerce\\build\\static",
+  "assetsByChunkName": {
+    "chamber-of-commerce": "chamber-of-commerce.module.js",
+    "list": "list.module.js"
+  },
+  "assets": [
+    {
+      "name": "chamber-of-commerce.module.js",
+      "size": 6474899,
+      "chunks": [
+        "chamber-of-commerce"
+      ],
+      "chunkNames": [
+        "chamber-of-commerce"
+      ],
+      "info": {},
+      "emitted": false
+    },
+    {
+      "name": "list.module.js",
+      "size": 47361,
+      "chunks": [
+        "list"
+      ],
+      "chunkNames": [
+        "list"
+      ],
+      "info": {},
+      "emitted": false
+    }
+  ],
+  "filteredAssets": 0,
+  "entrypoints": {
+    "chamber-of-commerce": {
+      "chunks": [
+        "chamber-of-commerce"
+      ],
+      "assets": [
+        "chamber-of-commerce.module.js"
+      ],
+      "children": {},
+      "childAssets": {}
+    }
+  },
+  "namedChunkGroups": {
+    "chamber-of-commerce": {
+      "chunks": [
+        "chamber-of-commerce"
+      ],
+      "assets": [
+        "chamber-of-commerce.module.js"
+      ],
+      "children": {},
+      "childAssets": {}
+    },
+    "list": {
+      "chunks": [
+        "list"
+      ],
+      "assets": [
+        "list.module.js"
+      ],
+      "children": {},
+      "childAssets": {}
+    }
+  },
+  "chunks": [
+    {
+      "id": "chamber-of-commerce",
+      "rendered": true,
+      "initial": true,
+      "entry": true,
+      "size": 1668731,
+      "names": [
+        "chamber-of-commerce"
+      ],
+      "files": [
+        "chamber-of-commerce.module.js"
+      ],
+      "hash": "2c77f3216db8d0a81047",
+      "siblings": [],
+      "parents": [],
+      "children": [
+        "list"
+      ],
+      "childrenByOrder": {},
+      "modules": [],
+      "filteredModules": 0,
+      "origins": []
+    },
+    {
+      "id": "list",
+      "rendered": true,
+      "initial": false,
+      "entry": false,
+      "size": 30184,
+      "names": [
+        "list"
+      ],
+      "files": [
+        "list.module.js"
+      ],
+      "hash": "498ed27f3bbcf93e82ea",
+      "siblings": [],
+      "parents": [
+        "chamber-of-commerce"
+      ],
+      "children": [],
+      "childrenByOrder": {},
+      "modules": [],
+      "filteredModules": 0,
+      "origins": []
+    }
+  ],
+  "logging": {
+    "webpack.buildChunkGraph.visitModules": {
+      "entries": [],
+      "filteredEntries": 5,
+      "debug": false
+    }
+  },
+  "children": [],
+  "generator": "loadable-components"
+}
