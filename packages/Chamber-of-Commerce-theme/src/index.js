@@ -3,12 +3,19 @@ import Root from "./theme-files";
 export default {
   name: "Chamber-of-Commerce-theme",
   roots: {
-    theme: Root
+    theme: Root,
   },
   state: {
-    theme: {}
+    theme: { isMenuOpen: false },
   },
   actions: {
-    theme: {}
-  }
+    theme: {
+      openMenu: ({ state }) => {
+        state.theme.isMenuOpen = true;
+      },
+      closeMenu: ({ state }) => {
+        state.theme.isMenuOpen = false;
+      },
+    },
+  },
 };

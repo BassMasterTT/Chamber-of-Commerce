@@ -1,11 +1,11 @@
 import React from "react";
-import { connect, Global, css, styled } from "frontity";
+import { connect, Global, css, styled, Head } from "frontity";
 import Link from "./link";
 import List from "./list";
 import Post from "./post";
 import Page from "./page";
 
-const Root = ({ state }) => {
+const Root = ({ state, actions }) => {
   const data = state.source.get(state.router.link);
   return (
     <>
@@ -21,15 +21,28 @@ const Root = ({ state }) => {
           }
         `}
       />
+      <Head>
+            <title>
+                Frontity Workshop at JS Nation Live
+            </title>  
+      </Head>
       <Header isPostType={data.isPostType}>
+      <meta name="description" content="something"></meta>
         <HeaderContent>
           <h1>Frontity Workshop</h1>
           <p>Current URL: {state.router.link}</p>
-          <Menu>
-            <Link href="/">Home</Link>
-            <Link href="/page/2">More Posts</Link>
-            <Link href="/lorem-ipsum">Lorem Ipsum</Link>
-          </Menu>
+          {state.theme.isMenuOpen ? (
+            <>
+              <button onClick={actions.theme.closeMenu}>Close</button>
+              <Menu>
+                <Link href="/">Home</Link>
+                <Link href="/page/2">More Posts</Link>
+                <Link href="/lorem-ipsum">Lorem Ipsum</Link>
+              </Menu>
+            </>
+          ) : (
+            <button onClick={actions.theme.openMenu}>Open</button>
+          )}
         </HeaderContent>
       </Header>
 
@@ -48,7 +61,7 @@ const Header = styled.header`
   background-color: #aea;
   border-width: 0 0 8px 0;
   border-style: solid;
-  border-color: ${props => props.isPostType ? 'lightseagreen' : 'maroon' };
+  border-color: ${(props) => (props.isPostType ? "lightseagreen" : "maroon")};
 `;
 const HeaderContent = styled.div`
   max-width: 800px;
@@ -60,7 +73,7 @@ const Menu = styled.nav`
   flex-direction: row;
   margin-top: 1em;
   & > div {
-      margin-right: 1em;
+    margin-right: 1em;
   }
 `;
 const Main = styled.main`
