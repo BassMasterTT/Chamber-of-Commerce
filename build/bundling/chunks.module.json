@@ -2,7 +2,7 @@
   "errors": [],
   "warnings": [],
   "version": "4.46.0",
-  "hash": "f1d10a50b4707862df0b",
+  "hash": "fe0718cc5ef167687239",
   "publicPath": "/static/",
   "outputPath": "D:\\Chamber_Of_Commerce_Frontify\\Chamber-of-Commerce\\build\\static",
   "assetsByChunkName": {
@@ -11,7 +11,7 @@
   "assets": [
     {
       "name": "chamber-of-commerce.module.js",
-      "size": 6149333,
+      "size": 6158223,
       "chunks": [
         "chamber-of-commerce"
       ],
@@ -19,7 +19,7 @@
         "chamber-of-commerce"
       ],
       "info": {},
-      "emitted": false,
+      "emitted": true,
       "isOverSizeLimit": true
     }
   ],
@@ -54,14 +54,14 @@
       "rendered": false,
       "initial": true,
       "entry": true,
-      "size": 1509537,
+      "size": 1510625,
       "names": [
         "chamber-of-commerce"
       ],
       "files": [
         "chamber-of-commerce.module.js"
       ],
-      "hash": "b2ad7da0083217cfa137",
+      "hash": "e61c9ea2100e194d9f34",
       "siblings": [],
       "parents": [],
       "children": [],

@@ -2,9 +2,10 @@ import React from "react";
 import { connect } from "frontity";
 import Link from "./link";
 import List from "./list";
+import Post from "./post";
+import Page from "./page";
 
 const Root = ({ state }) => {
-    
   const data = state.source.get(state.router.link);
   return (
     <>
@@ -18,8 +19,8 @@ const Root = ({ state }) => {
       <hr />
       <main>
         {data.isArchive && <List />}
-        {data.isPost && <div>This is a post</div>}
-        {data.isPage && <div>This is a page</div>}
+        {data.isPost && <Post />}
+        {data.isPage && <Page />}
       </main>
     </>
   );
