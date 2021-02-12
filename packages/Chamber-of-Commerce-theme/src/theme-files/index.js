@@ -21,7 +21,7 @@ const Root = ({ state }) => {
           }
         `}
       />
-      <Header>
+      <Header isPostType={data.isPostType}>
         <HeaderContent>
           <h1>Frontity Workshop</h1>
           <p>Current URL: {state.router.link}</p>
@@ -48,7 +48,7 @@ const Header = styled.header`
   background-color: #aea;
   border-width: 0 0 8px 0;
   border-style: solid;
-  border-color: maroon;
+  border-color: ${props => props.isPostType ? 'lightseagreen' : 'maroon' };
 `;
 const HeaderContent = styled.div`
   max-width: 800px;

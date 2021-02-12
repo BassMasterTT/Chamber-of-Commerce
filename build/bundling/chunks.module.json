@@ -2,45 +2,16 @@
   "errors": [],
   "warnings": [],
   "version": "4.46.0",
-  "hash": "380ed6fe97e5ab596a34",
+  "hash": "f573589ad68b6a1c9076",
   "publicPath": "/static/",
   "outputPath": "D:\\Chamber_Of_Commerce_Frontify\\Chamber-of-Commerce\\build\\static",
   "assetsByChunkName": {
-    "chamber-of-commerce": [
-      "chamber-of-commerce.module.js",
-      "chamber-of-commerce.1cb45268cc9297331307.hot-update.js"
-    ]
+    "chamber-of-commerce": "chamber-of-commerce.module.js"
   },
   "assets": [
     {
-      "name": "1cb45268cc9297331307.hot-update.json",
-      "size": 61,
-      "chunks": [],
-      "chunkNames": [],
-      "info": {
-        "hotModuleReplacement": true,
-        "immutable": true
-      },
-      "emitted": false
-    },
-    {
-      "name": "chamber-of-commerce.1cb45268cc9297331307.hot-update.js",
-      "size": 7776,
-      "chunks": [
-        "chamber-of-commerce"
-      ],
-      "chunkNames": [
-        "chamber-of-commerce"
-      ],
-      "info": {
-        "hotModuleReplacement": true,
-        "immutable": true
-      },
-      "emitted": false
-    },
-    {
       "name": "chamber-of-commerce.module.js",
-      "size": 6183889,
+      "size": 6184691,
       "chunks": [
         "chamber-of-commerce"
       ],
@@ -48,7 +19,8 @@
         "chamber-of-commerce"
       ],
       "info": {},
-      "emitted": false
+      "emitted": true,
+      "isOverSizeLimit": true
     }
   ],
   "filteredAssets": 0,
@@ -58,8 +30,7 @@
         "chamber-of-commerce"
       ],
       "assets": [
-        "chamber-of-commerce.module.js",
-        "chamber-of-commerce.1cb45268cc9297331307.hot-update.js"
+        "chamber-of-commerce.module.js"
       ],
       "children": {},
       "childAssets": {}
@@ -71,8 +42,7 @@
         "chamber-of-commerce"
       ],
       "assets": [
-        "chamber-of-commerce.module.js",
-        "chamber-of-commerce.1cb45268cc9297331307.hot-update.js"
+        "chamber-of-commerce.module.js"
       ],
       "children": {},
       "childAssets": {}
@@ -81,18 +51,17 @@
   "chunks": [
     {
       "id": "chamber-of-commerce",
-      "rendered": true,
+      "rendered": false,
       "initial": true,
       "entry": true,
-      "size": 1534466,
+      "size": 1534905,
       "names": [
         "chamber-of-commerce"
       ],
       "files": [
-        "chamber-of-commerce.module.js",
-        "chamber-of-commerce.1cb45268cc9297331307.hot-update.js"
+        "chamber-of-commerce.module.js"
       ],
-      "hash": "4a3374877f9d6225cc52",
+      "hash": "cf1c6c1c24a5823415e0",
       "siblings": [],
       "parents": [],
       "children": [],
