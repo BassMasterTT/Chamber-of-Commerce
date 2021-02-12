@@ -2,18 +2,18 @@
   "errors": [],
   "warnings": [],
   "version": "4.46.0",
-  "hash": "c5544e168081accf82cb",
+  "hash": "481713ef48dc13f0e6bb",
   "publicPath": "/static/",
   "outputPath": "D:\\Chamber_Of_Commerce_Frontify\\Chamber-of-Commerce\\build\\static",
   "assetsByChunkName": {
     "chamber-of-commerce": [
       "chamber-of-commerce.module.js",
-      "chamber-of-commerce.3a12da283db845039286.hot-update.js"
+      "chamber-of-commerce.26725937391dd4efd41f.hot-update.js"
     ]
   },
   "assets": [
     {
-      "name": "3a12da283db845039286.hot-update.json",
+      "name": "26725937391dd4efd41f.hot-update.json",
       "size": 61,
       "chunks": [],
       "chunkNames": [],
@@ -24,8 +24,8 @@
       "emitted": false
     },
     {
-      "name": "chamber-of-commerce.3a12da283db845039286.hot-update.js",
-      "size": 16022,
+      "name": "chamber-of-commerce.26725937391dd4efd41f.hot-update.js",
+      "size": 19441,
       "chunks": [
         "chamber-of-commerce"
       ],
@@ -40,7 +40,7 @@
     },
     {
       "name": "chamber-of-commerce.module.js",
-      "size": 6167928,
+      "size": 6171347,
       "chunks": [
         "chamber-of-commerce"
       ],
@@ -59,7 +59,7 @@
       ],
       "assets": [
         "chamber-of-commerce.module.js",
-        "chamber-of-commerce.3a12da283db845039286.hot-update.js"
+        "chamber-of-commerce.26725937391dd4efd41f.hot-update.js"
       ],
       "children": {},
       "childAssets": {}
@@ -72,7 +72,7 @@
       ],
       "assets": [
         "chamber-of-commerce.module.js",
-        "chamber-of-commerce.3a12da283db845039286.hot-update.js"
+        "chamber-of-commerce.26725937391dd4efd41f.hot-update.js"
       ],
       "children": {},
       "childAssets": {}
@@ -84,15 +84,15 @@
       "rendered": true,
       "initial": true,
       "entry": true,
-      "size": 1519464,
+      "size": 1522766,
       "names": [
         "chamber-of-commerce"
       ],
       "files": [
         "chamber-of-commerce.module.js",
-        "chamber-of-commerce.3a12da283db845039286.hot-update.js"
+        "chamber-of-commerce.26725937391dd4efd41f.hot-update.js"
       ],
-      "hash": "dba75f1ba3718c9b6989",
+      "hash": "12258475aba888ba0038",
       "siblings": [],
       "parents": [],
       "children": [],

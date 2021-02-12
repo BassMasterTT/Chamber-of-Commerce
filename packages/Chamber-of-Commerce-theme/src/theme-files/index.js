@@ -33,11 +33,11 @@ const Root = ({ state }) => {
         </HeaderContent>
       </Header>
 
-      <main>
+      <Main>
         {data.isArchive && <List />}
         {data.isPost && <Post />}
         {data.isPage && <Page />}
-      </main>
+      </Main>
     </>
   );
 };
@@ -53,5 +53,10 @@ const Header = styled.header`
 const HeaderContent = styled.div`
   max-width: 800px;
   padding: 2em 1em;
+  margin: auto;
+`;
+const Main = styled.main`
+  max-width: 800px;
+  padding: 1em;
   margin: auto;
 `;
